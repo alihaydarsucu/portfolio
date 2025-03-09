@@ -25,7 +25,7 @@ You can visit my portfolio here: **[Ali Haydar Sucu Portfolio](https://alihaydar
 ---
 
 ## 📷 Screenshot  
-![Portfolio Screenshot](Images/Projects/Portfolio.png) 
+![Portfolio Screenshot](/Readme/Readme.png) 
 
 ---
 
