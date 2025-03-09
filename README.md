@@ -1,4 +1,4 @@
-# 🌐 Ali Haydar Sucu - Portfolio Website  
+# 🌐 My Portfolio Website  
 
 Welcome to my personal portfolio website! This site showcases my background, skills, projects, experience, education, and certifications.  
 
