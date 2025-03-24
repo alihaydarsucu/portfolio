@@ -19,7 +19,7 @@ You can visit my portfolio here: **[Ali Haydar Sucu Portfolio](https://alihaydar
 ---
 
 ## 🚀 Technologies Used  
-- **Frontend**: HTML5, CSS3
+- **Frontend**: HTML5, CSS3, JavaScript
 - **Version Control**: Git & GitHub  
 
 ---
