@@ -3,7 +3,7 @@
 Welcome to my personal portfolio website! This site showcases my background, skills, projects, experience, education, and certifications.  
 
 ## 🖥️ Live Website  
-You can visit my portfolio here: **[Ali Haydar Sucu Portfolio](https://alihaydarsucu.github.io/portfolio)**  
+You can visit my portfolio here: **[Portfolio](https://github.com/alihaydarsucu/alihaydarsucu.github.io)**  
 
 ---
 
