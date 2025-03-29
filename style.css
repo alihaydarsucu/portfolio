@@ -188,6 +188,9 @@ nav {
 }
 
 .project-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Ensure all cards have equal height */
     background: white;
     border-radius: 10px;
     overflow: hidden;
@@ -195,8 +198,40 @@ nav {
     transition: transform 0.3s;
 }
 
-.project-card:hover {
-    transform: translateY(-8px);
+.project-content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; /* Make content take up available space */
+    padding: 20px;
+}
+
+.project-content p {
+    margin-bottom: 15px;
+    flex-grow: 1; /* Push the button to the bottom */
+}
+
+.project-link-container {
+    margin-top: auto; /* Push the button to the bottom */
+    display: flex;
+    justify-content: flex-start; /* Align button to the left */
+}
+
+/* Adjust the button styles */
+.project-link {
+    display: inline-block;
+    background: var(--blue);
+    color: white;
+    padding: 8px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background 0.3s;
+    margin-top: 15px; /* Space above the button */
+    align-self: flex-start; /* Align to the left */
+}
+
+.project-link:hover {
+    background: var(--dark-purple);
 }
 
 .project-image {
@@ -211,38 +246,11 @@ nav {
     transition: transform 0.5s;
 }
 
-.project-card:hover .project-image img {
+.project-card:hover  {
     transform: scale(1.05);
 }
 
-.project-content {
-    padding: 20px;
-}
 
-.project-content h3 {
-    font-size: 22px;
-    margin-bottom: 10px;
-}
-
-.project-content p {
-    margin-bottom: 15px;
-    color: #666;
-}
-
-.project-link {
-    display: inline-block;
-    background: var(--blue);
-    color: white;
-    padding: 8px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: 500;
-    transition: background 0.3s;
-}
-
-.project-link:hover {
-    background: var(--dark-purple);
-}
 
 /* Experience Section */
 .experience-card {
